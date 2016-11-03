@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_addview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add View"
+        />
+
+    <CheckBox
+        android:id="@+id/cb_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="appear"
+        android:checked="true"
+        />
+    <CheckBox
+        android:id="@+id/cb_change_appear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change_appear"
+        android:checked="true"
+        />
+    <CheckBox
+        android:id="@+id/cb_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="disappear"
+        android:checked="true"
+        />
+    <CheckBox
+        android:id="@+id/cb_change_disappear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change_disappear"
+        android:checked="true"
+        />
+
+
+
+</LinearLayout>
